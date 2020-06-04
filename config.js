@@ -82,6 +82,7 @@ var MAP_TITLE = "路桥中学2019届1班毕业去向";
 
 var ABOUT = {
 	"作者": ["潘致远"],
+	"镜像":["mirror.map.zypan.ltd"],
 	"使用的接口和开源程序": ["irmap", "Bootstrap", "百度地图API"],
 	"License": ["GNU General Public License"]
 };
