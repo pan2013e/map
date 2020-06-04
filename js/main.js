@@ -111,8 +111,9 @@ function addMarks (map) {
 				var n = nameList[i];
 
 				c_nameStr += n + " ";
-
-				Statistics.p_amount++;
+				if(n != "路桥中学") {
+					Statistics.p_amount++;
+				}
 			}
 
 			c_nameStr += "<br />";
