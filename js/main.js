@@ -23,12 +23,19 @@ window.onload = function () {
 
 	initStatisticsModal();
 
-	var zoom = 2, point = new BMap.Point(0, 40);
+	var zoom = 2, point = new BMap.Point(50, 40);
 	if (window.innerWidth < 480) {
 		zoom = 4;
-		point = new BMap.Point(110, 37);
+		point = new BMap.Point(150, 37);
 	}
 	map.centerAndZoom(point, zoom);
+
+	// var zoom = 2, point = new BMap.Point(0, 40);
+	// if (window.innerWidth < 480) {
+	// 	zoom = 4;
+	// 	point = new BMap.Point(110, 37);
+	// }
+	// map.centerAndZoom(point, zoom);
 }
 
 function initMapTitle(argument) {

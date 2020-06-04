@@ -72,8 +72,6 @@ var DATA = {
 	"衡阳": {
 		"南华大学":["王宁宇"],
 	},
-
-
 };
 
 var SPEC_POS = {
@@ -85,6 +83,5 @@ var MAP_TITLE = "路桥中学2019届1班毕业去向";
 var ABOUT = {
 	"作者": ["潘致远"],
 	"使用的接口和开源程序": ["irmap", "Bootstrap", "百度地图API"],
-	"License": ["GPL协议"]
-	//"反馈与改进": ["直接联系我，或者在GitHub repo下提交Pull request"],
+	"License": ["GNU General Public License"]
 };
