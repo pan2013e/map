@@ -23,9 +23,9 @@ window.onload = function () {
 
 	initStatisticsModal();
 
-	var zoom = 2, point = new BMap.Point(80, 40);
+	var zoom = 4, point = new BMap.Point(1500, 40);
 	if (window.innerWidth < 480) {
-		zoom = 4;
+		zoom = 8;
 		point = new BMap.Point(2000, 37);
 	}
 	map.centerAndZoom(point, zoom);
